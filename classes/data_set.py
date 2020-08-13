@@ -1,4 +1,4 @@
-from mnist import MNIST
+
 from random import randrange as rd
 from PIL import Image
 
@@ -18,7 +18,7 @@ class DataSet:
             file_index = i // len(using_numbers) + 1
             arr = []
 
-            image = Image.open(f'data/my-samples/{number}/{file_index}_resized.bmp')
+            image = Image.open(f'data/{number}/{file_index}_resized.bmp')
             width, height = image.size
             pixels = image.load()
 

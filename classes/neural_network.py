@@ -1,6 +1,5 @@
 from classes.data_set import DataSet
 from classes.layer import Layer
-from mnist import MNIST
 from random import randrange as rd
 
 
